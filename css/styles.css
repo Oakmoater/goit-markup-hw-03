@@ -1,0 +1,210 @@
+:root {
+    --akcent-btn-color:#188CE8;
+    --akcent-color:#2196F3;
+    --akcent-text-color:#FFFFFF;
+    --akcent-text-transperent: rgba(255, 255, 255, 0.6);
+    --btn-color:#F5F4FA;
+    --text-color:#212121;
+    --text-color-primary:#757575;
+}
+body{
+    font-family:"Roboto",sans-serif;
+    font-size: 14px;
+    color: var(--text-color-primary);
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+    outline: 1px solid purple;
+}
+.portpholio{
+    width: 1170px;
+    margin: 0 auto;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.head{
+    font-weight: 500;
+    line-height: 1.17;
+}
+.filter-item{
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+    background-color: var(--btn-color);
+}
+.navigation{
+    color:var(--text-color);
+}
+.navigation-akcent{
+    color: var(--akcent-color);
+}
+.navigation:hover, .navigation:focus{
+    color: var(--akcent-color);
+}
+.contacts-head{
+    color: var(--text-color-primary);
+}
+.adress-footer:hover, .adress-footer:focus,.contacts-head:hover, .contacts-head:focus, .contacts-footer:hover, .contacts-footer:focus{
+    color: var(--akcent-color);
+}
+.adress-footer{
+    color: var(--akcent-text-color);
+    font-family:"Roboto",sans-serif;
+    font-style: normal;
+    line-height: 1.71;
+}
+.contacts-footer{
+    color:var(--akcent-text-transperent);
+    font-family:"Roboto",sans-serif;
+    font-style: normal;
+    line-height: 1.71;
+}
+.logo-header{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color:var(--text-color);
+}
+.logo-header>span{
+    color: var(--akcent-color);
+}
+.logo{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--akcent-text-color);
+}
+.logo>span{
+    color: var(--akcent-color);
+}
+.feature{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+}
+.feature-title{
+    font-size: 14px;
+    line-height: 1.14;  
+    text-transform: uppercase;
+    color: var(--text-color);  
+}
+.example-title{
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--text-color);
+}
+.team-title{
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--text-color);
+}
+.team-name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+    color: var(--text-color);
+}
+.team-position{
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--text-color-primary);
+}
+.btn{
+    font-family:inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--akcent-text-color);
+    background-color: var(--akcent-color);
+    cursor: pointer;
+}
+.filter-item:hover,.filter-item:focus{
+    background-color: var(--akcent-color);
+    color: var(--akcent-text-color);
+}
+.btn:hover,.btn:focus{
+    background-color:var(--akcent-btn-color) ;
+}
+.project-section{
+    color: inherit;
+}
+.project-title{
+    font-size: 18px;
+    line-height: 2;
+    color: var(--text-color);
+}
+.project-item{
+    color: var(--text-color2);
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.footer{
+    background-color:#2F303A;
+}
+.title-section{
+    background-color: rgba(47, 48, 58, 1);
+}
+.main-title{
+    font-family:"Roboto",sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--akcent-text-color);
+    text-transform: uppercase;
+}
+/* флекси */
+.page-header .container{
+    display: flex;
+    align-items: center;
+    /* margin: 0 215px; */
+}
+.logo-header{
+    margin-left: 215px;
+    margin-right: 93px;
+}
+.header-nav{
+    padding-left: 0;
+    display: flex;
+}
+.header-nav .list:not(:first-child){
+    margin-left: 50px;
+}
+.header-contakts{
+    display: flex;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: 215px;
+}
+.header-contakts .list:not(:first-child){
+    margin-left: 50px;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
