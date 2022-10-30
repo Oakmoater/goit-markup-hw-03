@@ -28,7 +28,8 @@ body{
 }
 .container{
     width: 1200px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 .header{
@@ -37,18 +38,16 @@ body{
 .header-section{
     display: flex;
     align-items: center;
-    padding: 24px 0 25px 0;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .portpholio{
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 .hero-background{
     background-color: rgba(47, 48, 58, 1);
 }
-
- /* Заголовок сторінки та сайту */
-
 .hero-section{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -57,7 +56,6 @@ body{
 .feature-section{
     padding-top: 94px;
     padding-bottom: 94px;
-    box-sizing: content-box;
 }
 .cosanostra-section{
     text-align: center;
@@ -91,13 +89,11 @@ body{
 }
 .team-section{
     text-align: center;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 .team{
     display: inline-flex;
-}
-.projects-section{
-    padding-bottom: 94px;
 }
 /* FOOTER */
 
@@ -178,6 +174,7 @@ body{
     color: var(--akcent-color);
 }
 .feature{
+    margin-top: 10px;
     width: 270px;
     font-size: 14px;
     font-weight: 400;
@@ -247,6 +244,9 @@ body{
 }
 .project-section>div{
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .project-section>img{
     display: block;
@@ -313,12 +313,14 @@ body{
     margin-left: 8px;
 }
 .projects{
+    margin-top: 50px;
+    box-sizing: content-box;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 .project-list{
-    border-bottom: 1px solid #EEEEEE;
+    flex-basis: calc((100% - 60px) / 3);
 }
 .address{
     margin-top: 20px;
