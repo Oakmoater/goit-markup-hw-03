@@ -115,6 +115,7 @@ body{
     line-height: 1.17;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 .navigation-akcent{
     color: var(--akcent-color);
@@ -122,6 +123,7 @@ body{
     line-height: 1.17;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 .navigation:hover, .navigation:focus{
     color: var(--akcent-color);
@@ -281,11 +283,6 @@ body{
 .header-nav{
     display: flex;
 }
-.header-nav>.list{
-    box-sizing: border-box;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}  
 .header-nav .list:not(:first-child){
     margin-left: 50px;
 }
