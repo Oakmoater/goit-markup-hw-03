@@ -34,7 +34,7 @@ body{
 .header{
     border-bottom:1px solid #ECECEC;
 }
-.header-container{
+.header-section{
     display: flex;
     align-items: center;
     padding: 24px 0 25px 0;
@@ -43,28 +43,28 @@ body{
     padding-top: 94px;
     padding-bottom: 50px;
 }
-.title-section{
+.hero-background{
     background-color: rgba(47, 48, 58, 1);
 }
 
  /* Заголовок сторінки та сайту */
 
-.main-section{
+.hero-section{
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
 }
 .feature-section{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     box-sizing: content-box;
 }
 .cosanostra-section{
     text-align: center;
+    padding-bottom: 94px;
 }
 .cosanostra{
     display: inline-flex;
-    margin-bottom: 94px;
 }
 .cosanostra-list:not(:last-child){
     margin-right: 30px;
@@ -80,15 +80,18 @@ body{
 .team-list>div{
     padding: 20px 24px;
 }
+.team-list>img{
+    display: block;
+}
 .team-background{
     background: var(--btn-color);
 }
 .team-section{
     text-align: center;
+    padding-bottom: 94px;
 }
 .team{
     display: inline-flex;
-    margin-bottom: 94px;
 }
 .projects-section{
     padding-bottom: 94px;
@@ -219,10 +222,14 @@ body{
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 10px 32px;
+    height: 50px;
     min-width: 216px;
     text-align: center;
     border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .filter-item:hover,.filter-item:focus{
     background-color: var(--akcent-color);
