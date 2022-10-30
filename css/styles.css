@@ -167,6 +167,8 @@ body{
     font-size: 26px;
     line-height: 1.2;
     color: var(--akcent-text-color);
+    display: block;
+    margin-bottom: 20px;
 }
 .logo>span{
     color: var(--akcent-color);
@@ -318,9 +320,6 @@ body{
 }
 .project-list{
     flex-basis: calc((100% - 60px) / 3);
-}
-.address{
-    margin-top: 20px;
 }
 .address>li:not(:first-child){
     margin-top: 9px;
