@@ -37,9 +37,7 @@ body{
 }
 .header-section{
     display: flex;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    /* align-items: center; */
 }
 .portpholio{
     padding-top: 94px;
@@ -158,7 +156,8 @@ body{
     line-height: 1.2;
     color:var(--text-color);
     margin-right:93px;
-
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .logo-header>span{
     color: var(--akcent-color);
@@ -286,13 +285,16 @@ body{
 }
 .header-nav{
     display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-nav .list:not(:first-child){
     margin-left: 50px;
 }
 .header-contakts{
     display: flex;
-    padding-left: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-left: auto;
 }
 .header-contakts .list:not(:first-child){
