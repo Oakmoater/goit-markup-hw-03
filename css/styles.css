@@ -37,8 +37,7 @@ body{
 }
 .header-section{
     display: flex;
-    /* align-items: center; */
-}
+}    
 .portpholio{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -93,8 +92,6 @@ body{
 .team{
     display: inline-flex;
 }
-/* FOOTER */
-
 .footer-background{
     background-color:#2F303A;
 }
@@ -205,7 +202,6 @@ body{
     margin-bottom: 10px;
 }
 .team-position{
-    /* margin-bottom: 30px; */
     font-size: 16px;
     line-height: 1.19;
     color: var(--text-color-primary);
@@ -228,7 +224,6 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
 }
 .filter-item:hover,.filter-item:focus{
     background-color: var(--akcent-color);
